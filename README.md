@@ -98,9 +98,9 @@ Esse projeto foi construído no braço com apoio da IA, mas com entendimento lin
 
 ---
 
-## 📄 Licença
+## 👨‍💻 Sobre mim
 
-MIT — Livre para estudar, adaptar e melhorar. Mas se for usar pra vender, lembra de dar os créditos.
+Me chamo Diego de Jesus Oliveira e sou analista de prevenção a fraudes buscando conhecimento e profundidade para entender a área de dados. Esse projeto foi construído com base em desafios reais do meu dia a dia, usando SQL, IA (ChatGPT) e visualização de hipóteses de risco para gerar valor prático ao negócio.
 
-Diego Oliveira | 2025
----
+📬 [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/diego-jesus-317302178/)
+
