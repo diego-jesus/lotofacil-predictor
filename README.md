@@ -67,14 +67,17 @@ Escolha o repositório e defina app.py como arquivo principal
 
 Clique em Deploy e pronto!
 
-📥 Exportação de dados
+```
+## 📥 Exportação de dados
+
 Todos os jogos são salvos em resultados/jogos.db
 
 Você pode exportar todos para .csv com um botão na interface
 
 Os .txt com cada jogo também ficam salvos na pasta resultados/
 
-📌 Próximos passos
+## 📌 Próximos passos
+
  Integrar dados reais da Caixa (concursos oficiais)
 
  Criar simulador de acertos com base no histórico
@@ -85,19 +88,11 @@ Os .txt com cada jogo também ficam salvos na pasta resultados/
 
  Versão mobile e painel de bolões
 
-🛠️ Feito na cara e na coragem
+## 🛠️ Feito na cara e na coragem
+
 Esse projeto foi construído no braço com apoio da IA, mas com entendimento linha por linha de cada funcionalidade. É um exemplo claro de como aprender tecnologia aplicando algo real, útil e com potencial de monetização.
 
-📄 Licença
+## 📄 Licença
+
 MIT — Livre para estudar, adaptar e melhorar. Mas se for usar pra vender, lembra de dar os créditos. 😉
-
 Diego Oliveira | 2025
-
----
-
-Depois disso, dá o mesmo commit (`docs: atualiza README formatado`) e clica em **Commit changes**.
-
-Assim ele vai renderizar com estrutura, cores, botões e ficar visualmente perfeito no GitHub. Manda bala!
-
-
-
