@@ -76,6 +76,8 @@ Você pode exportar todos para .csv com um botão na interface
 
 Os .txt com cada jogo também ficam salvos na pasta resultados/
 
+---
+
 ## 📌 Próximos passos
 
  Integrar dados reais da Caixa (concursos oficiais)
@@ -88,11 +90,17 @@ Os .txt com cada jogo também ficam salvos na pasta resultados/
 
  Versão mobile e painel de bolões
 
+ ---
+
 ## 🛠️ Feito na cara e na coragem
 
 Esse projeto foi construído no braço com apoio da IA, mas com entendimento linha por linha de cada funcionalidade. É um exemplo claro de como aprender tecnologia aplicando algo real, útil e com potencial de monetização.
 
+---
+
 ## 📄 Licença
 
-MIT — Livre para estudar, adaptar e melhorar. Mas se for usar pra vender, lembra de dar os créditos. 😉
+MIT — Livre para estudar, adaptar e melhorar. Mas se for usar pra vender, lembra de dar os créditos.
+
 Diego Oliveira | 2025
+---
