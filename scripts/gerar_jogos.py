@@ -66,7 +66,7 @@ def treinar_modelo(df):
 def prever_jogo(modelos, ultima_linha):
     probs = []
     for col, modelo in modelos.items():
-        prob = modelo.predict_proba([ultima_linha])[0][1]
+        prob = modelo.predict_proba(pd.DataFrame([ultima_linha], columns=ultima_linha.index))[0][1]
         probs.append((col, prob))
     top_15 = sorted(probs, key=lambda x: x[1], reverse=True)[:15]
     return sorted([int(num) for num, _ in top_15])
