@@ -1,20 +1,22 @@
-# 🔮 Lotofácil Predictor — IA preditiva de jogos com Streamlit + Machine Learning
+# 🎯 Lotofácil Predictor — IA preditiva de jogos com Streamlit + Machine Learning
 
-![Badge](https://img.shields.io/badge/status-ativo-green) ![Badge](https://img.shields.io/badge/projeto-na%20ra%C3%A7a-blue)
+![Badge](https://img.shields.io/badge/IA-preditiva-green)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-**Projeto criado por [Diego Oliveira](https://github.com/diego-jesus) com suporte do ChatGPT, voltado para gerar jogos inteligentes da Lotofácil com base em análise de dados, IA e interface web interativa.**
+Projeto criado por **Diego de Jesus Oliveira** com apoio do ChatGPT.  
+Gera jogos inteligentes da Lotofácil com base em dados históricos, machine learning e interface interativa na web.
 
 ---
 
-## 🧠 O que esse projeto faz?
+## 🧠 O que esse projeto faz
 
 - Simula concursos da Lotofácil com base estatística
-- Treina um modelo de Random Forest para prever dezenas com maior probabilidade
+- Treina modelo Random Forest para prever dezenas mais prováveis
 - Gera jogos automaticamente com 15 dezenas
-- Salva cada jogo no banco SQLite (`jogos.db`)
-- Permite consulta ao histórico via terminal ou web
-- Exporta os jogos para `.csv`
-- Interface amigável com Streamlit
+- Salva no banco SQLite (`jogos.db`)
+- Permite consulta ao histórico (web e terminal)
+- Exporta jogos para `.csv`
+- Interface via **Streamlit**
 - 100% rodando na nuvem
 
 ---
@@ -24,83 +26,73 @@
 lotofacil-predictor/
 ├── app.py # Interface web com Streamlit
 ├── scripts/
-│ ├── gerar_jogos.py # Modelo preditivo, salvamento em banco e .txt
+│ ├── gerar_jogos.py # Modelo preditivo + salvamento
 │ └── consultar_jogos.py # Consulta via terminal
-├── resultados/ # Jogos gerados (.txt) e banco de dados (.db)
-├── requirements.txt # Pacotes necessários para rodar o projeto
-├── README.md # Você está aqui
+├── resultados/ # Jogos salvos (.txt) + banco (.db)
+├── requirements.txt # Dependências
+└── README.md # Você está aqui
+
 
 ---
 
 ## 🧪 Tecnologias Utilizadas
 
-- Python 3.10+
-- Streamlit
-- SQLite
-- pandas
-- numpy
+- Python 3.10+  
+- Streamlit  
+- pandas + numpy  
+- SQLite  
 - scikit-learn
 
 ---
 
-## 🚀 Como rodar localmente (em Codespaces ou VS Code)
+## 🚀 Como rodar localmente
 
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/lotofacil-predictor
+```
+bash
+git clone https://github.com/diego-jesus/lotofacil-predictor
 cd lotofacil-predictor
 
-# Instale as dependências
 pip install -r requirements.txt
-
-# Rode a interface
 streamlit run app.py
+```
 
-🌐 Como testar online (via Streamlit Cloud)
-Suba o projeto no seu GitHub
+---
 
-Vá em https://share.streamlit.io
+🌐 Testar online (Streamlit Cloud)
+Suba o projeto no GitHub
 
-Clique em “New App”
+Vá em share.streamlit.io
 
-Escolha o repositório e defina app.py como arquivo principal
+Clique em New App
+
+Escolha o repositório e defina app.py como principal
 
 Clique em Deploy e pronto!
 
-```
-## 📥 Exportação de dados
+📥 Exportação de dados
+Jogos salvos em resultados/jogos.db
 
-Todos os jogos são salvos em resultados/jogos.db
+Exportação via botão na interface (.csv)
 
-Você pode exportar todos para .csv com um botão na interface
+Cópia dos jogos em .txt dentro de resultados/
 
-Os .txt com cada jogo também ficam salvos na pasta resultados/
+📌 Próximos passos
+Integrar dados reais da Caixa (concursos oficiais)
 
----
+Simulador de acertos com base no histórico
 
-## 📌 Próximos passos
+Análise de frequência e calor dos números
 
- Integrar dados reais da Caixa (concursos oficiais)
+Gerar múltiplos jogos por rodada
 
- Criar simulador de acertos com base no histórico
+Versão mobile + painel de bolões
 
- Implementar análise de frequência e calor dos números
+🛠️ Feito na coragem + dados
+Esse projeto foi construído no braço, com apoio da IA e entendimento de cada linha de código.
+Um exemplo de como aprender tecnologia aplicando algo real, útil e com potencial de monetização.
 
- Criar botão de múltiplos jogos
+👨‍💻 Sobre mim
+Sou Diego de Jesus Oliveira, analista de prevenção a fraudes em transição para dados.
+Uso projetos como este para explorar, aprender e gerar valor real com dados, IA e curiosidade.
 
- Versão mobile e painel de bolões
-
- ---
-
-## 🛠️ Feito na cara e na coragem
-
-Esse projeto foi construído no braço com apoio da IA, mas com entendimento linha por linha de cada funcionalidade. É um exemplo claro de como aprender tecnologia aplicando algo real, útil e com potencial de monetização.
-
----
-
-## 👨‍💻 Sobre mim
-
-Me chamo Diego de Jesus Oliveira e sou analista de prevenção a fraudes buscando conhecimento e profundidade para entender a área de dados. Esse projeto foi construído com base em desafios reais do meu dia a dia, usando SQL, IA (ChatGPT) e visualização de hipóteses de risco para gerar valor prático ao negócio.
-
-📬 [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/diego-jesus-317302178/)
-
+[Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/diego-jesus-317302178/)
