@@ -1,13 +1,7 @@
-# 🎯 Lotofácil Predictor — IA preditiva de jogos com Streamlit + Machine Learning
-
-<p align="center">
-  <img src="pasta_logo/logo.JPG" width="250" alt="Logo Lotofácil Predictor" />
-</p>
-
-
 # 🔮 Lotofácil Predictor — IA preditiva de jogos com Streamlit + Machine Learning
 
-![Badge](https://img.shields.io/badge/status-ativo-green) ![Badge](https://img.shields.io/badge/projeto-na%20ra%C3%A7a-blue)
+![Badge](https://img.shields.io/badge/IA-preditiva-green)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
 Projeto criado por **Diego de Jesus Oliveira** com apoio do ChatGPT.  
 Gera jogos inteligentes da Lotofácil com base em dados históricos, machine learning e interface interativa na web.
