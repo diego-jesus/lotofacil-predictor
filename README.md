@@ -94,6 +94,7 @@ Um exemplo de como aprender tecnologia aplicando algo real, útil e com potencia
 ---
 
 👨‍💻 Sobre mim
+
 Sou Diego de Jesus Oliveira, analista de prevenção a fraudes em transição para dados.
 Uso projetos como este para explorar, aprender e gerar valor real com dados, IA e curiosidade.
 
