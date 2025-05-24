@@ -59,37 +59,39 @@ streamlit run app.py
 ---
 
 🌐 Testar online (Streamlit Cloud)
-Suba o projeto no GitHub
 
-Vá em share.streamlit.io
+- Suba o projeto no GitHub
+- Vá em share.streamlit.io
+- Clique em New App
+- Escolha o repositório e defina app.py como principal
+- Clique em Deploy e pronto!
 
-Clique em New App
-
-Escolha o repositório e defina app.py como principal
-
-Clique em Deploy e pronto!
+---
 
 📥 Exportação de dados
-Jogos salvos em resultados/jogos.db
 
-Exportação via botão na interface (.csv)
+- Jogos salvos em resultados/jogos.db
+- Exportação via botão na interface (.csv)
+- Cópia dos jogos em .txt dentro de resultados/
 
-Cópia dos jogos em .txt dentro de resultados/
+---
 
 📌 Próximos passos
-Integrar dados reais da Caixa (concursos oficiais)
 
-Simulador de acertos com base no histórico
+- Integrar dados reais da Caixa (concursos oficiais)
+- Simulador de acertos com base no histórico
+- Análise de frequência e calor dos números
+- Gerar múltiplos jogos por rodada
+- Versão mobile + painel de bolões
 
-Análise de frequência e calor dos números
-
-Gerar múltiplos jogos por rodada
-
-Versão mobile + painel de bolões
+---
 
 🛠️ Feito na coragem + dados
+
 Esse projeto foi construído no braço, com apoio da IA e entendimento de cada linha de código.
 Um exemplo de como aprender tecnologia aplicando algo real, útil e com potencial de monetização.
+
+---
 
 👨‍💻 Sobre mim
 Sou Diego de Jesus Oliveira, analista de prevenção a fraudes em transição para dados.
