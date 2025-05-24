@@ -1,6 +1,8 @@
 # 🎯 Lotofácil Predictor — IA preditiva de jogos com Streamlit + Machine Learning
 
-# 🎯 Lotofácil Predictor — IA preditiva de jogos com Streamlit + Machine Learning
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diego-jesus/lotofacil-predictor/main/img/logo.png" alt="Lotofácil Predictor" width="300"/>
+</p>
 
 ![Badge](https://img.shields.io/badge/IA-preditiva-green)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
